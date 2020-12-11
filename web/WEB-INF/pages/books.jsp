@@ -87,6 +87,7 @@
 
 <c:url var="addAction" value="/books/add"/>
 
+<%--@elvariable id="book" type="com.sysoiev.book_manager"--%>
 <form:form action="${addAction}" commandName="book">
     <table>
         <c:if test="${!empty book.name}">
